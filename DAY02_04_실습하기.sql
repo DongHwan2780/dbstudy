@@ -10,7 +10,7 @@ SELECT *
 -- 3. 사원 테이블에서 연봉이 10000 이상인 사원의 정보 조회하기
 SELECT * 
     FROM EMPLOYEES
- WHERE SALARY >= 10000
+ WHERE SALARY >= 10000;
 
 -- 4. 사원 테이블에서 연봉이 10000 이상 20000 이하인 사원의 정보 조회하기
 SELECT * 

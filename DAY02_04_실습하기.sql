@@ -25,7 +25,7 @@ SELECT *
 -- 6. 사원 테이블에서 소속된 부서가 없는 사원의 정보 조회하기
 SELECT * 
     FROM EMPLOYEES
- WHERE DEPARTMENT_ID = NULL;
+ WHERE DEPARTMENT_ID IS NULL;
 
 -- 7. 사원 테이블에서 커미션을 받는 사원의 정보 조회하기
 SELECT * 
